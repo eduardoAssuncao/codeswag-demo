@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login - codeswag.co.uk</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/codeswag.png" alt="codeswag-logo">
+      <ion-card-title>codeswag.co.uk</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="username"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-input placeholder="password" type="password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button (click)="logMeIn()">login</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
